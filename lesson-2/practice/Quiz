@@ -1,0 +1,73 @@
+// QUIZ!
+console.log(5 > 4);
+console.log("apple" > "pineapple");
+console.log('2' > '12');
+console.log(undefined == null);
+console.log(undefined === null);
+console.log(null == '/n0/'); 
+console.log(null === +'/n0/');
+
+1- What is the value of y? 
+let x = 10;
+let y = (x > 5) && (x < 15); 
+
+a- 10
+
+b- 5
+
+c- 15 
+
+d- true 
+
+2- What is the value of x? 
+let x = 5; 
+x += 3; 
+
+a- 3
+
+b- 8
+
+c- 15
+
+d- 5 
+
+3- What is the value of y? 
+let x = 10; 
+
+let y = x++; 
+
+a- 10
+
+b- 11
+
+c- 12
+
+d- 13
+
+4- What is the value of y? 
+let x = 1; 
+let y = x !== 2;
+
+a- 1
+
+b- 2 
+
+c- false
+
+d- true
+
+
+// ***********************
+let a = 1, b = 1;
+
+let c = ++a; // ?
+let d = b++; // ?
+
+console.log(a); // D1 E1 
+console.log(b); // D1 E2
+console.log(c); // D2 E2
+console.log(d); // D1 E1 L2
+
+if ("0") {
+  console.log( 'Hello' );
+}

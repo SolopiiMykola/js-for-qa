@@ -1,0 +1,11 @@
+https://learn.co/lessons/js-basics-javascript-basics-quiz
+https://learn.co/lessons/javascript-data-types-quiz
+
+What does the following expression return?
+typeof(3);
+
+What does the following expression return?
+typeof(NaN);
+typeof(Null);
+typeof(undefined);
+typeof("cats");
