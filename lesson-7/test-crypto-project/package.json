@@ -1,0 +1,17 @@
+{
+  "name": "cryptoproject",
+  "version": "1.0.0",
+  "description": "The goal of this project is to get the latest BTC cource",
+  "main": "index.js",
+  "scripts": {
+    "start": "node crypto.js"
+  },
+  "author": "Mykola Solopii <solopiy@i.ua>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "request": "2.88.0",
+    "pug": "2.0.4",
+    "request-promise-native": "1.0.8"
+  }
+}

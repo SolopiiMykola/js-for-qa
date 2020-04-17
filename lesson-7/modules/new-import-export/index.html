@@ -1,0 +1,13 @@
+In real-life, browser modules are rarely used in 
+their “raw” form. Usually, we bundle them together 
+with a special tool such as Webpack/Babel and deploy to 
+the production server.
+A module is a file. To make import/export work, 
+browsers need <script type="module"></script>
+
+<!doctype html>
+<script type="module">
+  import {add} from './data.js';
+
+  document.body.innerHTML = add(1, 2);
+</script>
