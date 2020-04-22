@@ -1,0 +1,15 @@
+{
+  "name": "testcafeproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./src/tests/registration-po-test.js"
+  },
+  "author": "Mykola",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.7.0",
+    "faker": "4.1.0"
+  }
+}

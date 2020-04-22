@@ -1,0 +1,12 @@
+{
+  "concurrency": 1,
+  "appInitDelay": 3000,
+  "browsers": "chrome",
+  "selectorTimeout": 2000,
+  "assertionTimeout": 2000,
+  "pageLoadTimeout": 2000,
+  "speed": 1,
+  "screenshotPath": "artifacts/screenshots",
+  "takeScreenshotsOnFails": true,
+  "screenshotPathPattern": "${FIXTURE}/${TEST}.png"
+}

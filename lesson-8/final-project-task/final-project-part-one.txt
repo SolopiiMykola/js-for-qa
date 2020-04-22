@@ -1,0 +1,18 @@
+You need to setup your own project and rewrite existing registration-page.js 
+tests in testcafe-project folder using Page Object pattern
+Your project structure should follow next format:
+
+your-project-name
+    src 
+        data - folder which contains your test  (optional)
+        pages
+            base-page.js            - This file should contain base method with the same for each pages, for example `navigateToUrl()`
+            registration-page.js    - This files should contain Class where you extends from your Base Class
+                                       In following class you should put all elements which exist in registration tests
+                                       Also this class should contain methods which related to this page, for example - `registerNewUser(someData) {}`
+        tests
+            registration-po-test.js - Yor page object implementation test file. 
+                                      This file should import methods from your registration-page.js
+    package.json -- should contains all neccessary packages
+
+    
