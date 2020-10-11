@@ -4,9 +4,7 @@ let a = 'green';
 let b = 'red';
 
 // Your code
-let temp = a;
-a = b;
-b = temp;
+
 
 console.log(a); // Should equal 'red'
 console.log(b); // Should equal 'green'
