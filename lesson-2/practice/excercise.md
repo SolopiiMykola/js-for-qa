@@ -32,7 +32,7 @@ Example:
 -> 119 years
 
 
-3. Write a script which will convert number into corresponding letter, and print(or alert) result:
+4. Write a script which will convert number into corresponding letter, and print(or alert) result:
 
 The grades should be computed as follows :
 Range Grade
