@@ -9,9 +9,8 @@
   "author": "Mykola Solopii <solopiy@i.ua>",
   "license": "ISC",
   "dependencies": {
-    "express": "4.17.1",
-    "request": "2.88.0",
-    "pug": "2.0.4",
-    "request-promise-native": "1.0.8"
+    "axios": "^0.21.0",
+    "express": "^4.16.1",
+    "pug": "^3.0.0"
   }
 }
