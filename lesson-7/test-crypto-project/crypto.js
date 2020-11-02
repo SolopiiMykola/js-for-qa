@@ -1,5 +1,5 @@
 // Modules imports
-const request = require("request-promise-native");
+const axios = require("axios");
 const express = require("express");
 // Creating new server application
 const app = express();
@@ -40,8 +40,8 @@ app.listen(port, function() {
 let requestRates = async (from, to) => {
   // trying to make GET request to get fresh rates
   // https://cex.io/rest-api#last-price
-  const response = await request(`https://cex.io/api/last_price/${from}/${to}`);
-  const json = JSON.parse(response);
+  const response = await axios.get(`https://cex.io/api/last_price/${from}/${to}`);
+  const json = response.data;
   console.log('requestRates jsonResponse', json)
   // If response contains .error property, throwing it
   if (json.error) {
