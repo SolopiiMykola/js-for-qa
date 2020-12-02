@@ -10,3 +10,6 @@ typeof(null);
 typeof(Null);
 typeof(undefined);
 typeof("cats");
+
+let phone = null; //
+let phone1; //
