@@ -9,6 +9,8 @@ typeof(NaN);
 typeof(null);
 typeof(Null);
 typeof(undefined);
+typeof(console);
+typeof(console.log)
 
 let phone = null; //
 let phone1; //
