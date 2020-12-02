@@ -6,6 +6,7 @@ typeof(3);
 
 What does the following expression return?
 typeof(NaN);
+typeof(null);
 typeof(Null);
 typeof(undefined);
 typeof("cats");
