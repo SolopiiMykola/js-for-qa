@@ -3,13 +3,12 @@ https://learn.co/lessons/javascript-data-types-quiz
 
 What does the following expression return?
 typeof(3);
-
-What does the following expression return?
+typeof("true");
+typeof(true);
 typeof(NaN);
 typeof(null);
 typeof(Null);
 typeof(undefined);
-typeof("cats");
 
 let phone = null; //
 let phone1; //
