@@ -136,15 +136,30 @@ sayHello()();
 // Arrow function 
 // Arrow function just shorter form of your function
 // Different syntax
+
+// Regular function example
+function myRegularFnc() {
+  console.log("I'm a regular function")
+}
+
+// Arrow function example
+const myArrowFnc = (someArgument) => {
+  console.log("I'm new brand arrow function")
+}
+
 let arrowFunc = (parameter1, parameter2) => { // => arrow
     return parameter1 + parameter2;
 }
+console.log(arrowFunc(1, 2))
 
 let arrowFunc = (parameter1, parameter2) => parameter1 + parameter2; // the same
+console.log(arrowFunc(1, 2)) 
 let arrowFunc = parameter1 => parameter1 + 1; // in case when you have one parameter
+console.log(arrowFunc(1)) 
 
-const objectFunction = {
-  arrowFunc: (parameter1, parameter2) => {
+const objectWhichContainsFunctionAsKey = {
+  someKey: "some value",
+  arrowFuncKey: (parameter1, parameter2) => {
     console.log(parameter1 + parameter2)
   }
 }
