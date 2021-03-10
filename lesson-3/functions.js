@@ -143,7 +143,7 @@ function myRegularFnc() {
 }
 
 // Arrow function example
-const myArrowFnc = (someArgument) => {
+const myArrowFnc = () => {
   console.log("I'm new brand arrow function")
 }
 
