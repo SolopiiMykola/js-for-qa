@@ -185,12 +185,26 @@ const user2 = Object.assign(user, userAge, isAdmin);
 console.log(user);
 console.log(user2);
 
-// Spread Operator allow you to combine objects by key
+// Spread Operator "..." used to split up object properties OR array elements 
+const oldObj = {oldProp: 1};
+const newObj = {...oldObj, newProp: 4};
 let user1 = { name: "Mykola" };
 let userAge1 = { age: 26 };
 let isAdmin1 = { isAdmin: true };
 const userNew = {...user1, ...userAge1, ...isAdmin1};
 console.log(user1);
 console.log(userNew);
+
+// Rest Operator "..." used to merge a list of function arguments into an array
+function sortArgs(...args) {
+  return args.sort()
+}
+
+const filter = (...args) => {
+  return args.filter(el => el === 3); // args combine all argument into an array, so we can apply only method for arrays
+}
+
+console.log(filter(1, 2, 3, 4, 5)); //  return [3] as it's match the condition
+
 
 
