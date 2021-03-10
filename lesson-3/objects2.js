@@ -207,4 +207,12 @@ const filter = (...args) => {
 console.log(filter(1, 2, 3, 4, 5)); //  return [3] as it's match the condition
 
 
+// **************************************************************************************************
+// Object Destructuring - extract object properties OR array elements and store them in variables
+const {name} = {name: 'Mykola', age: 27};
+console.log(name) // Mykola
+console.log(age) // age is not defined
 
+const {age, someOherKey} = {name: 'Mykola', age: 27};
+console.log(age) // 27
+console.log(someOherKey) // undefined
