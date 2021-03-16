@@ -158,3 +158,26 @@ let newArr = arr.map(function(item, index, array) {
 console.log(arr); // [10, 30, 100]
 console.log(newArr);
 // The result of the function will be passed to new array
+
+
+// Array destructuring
+// Destructuring assignment allows for instantly mapping an object or array onto many variables.
+// we have an array with the name and surname
+let arr = ["Mykola", "Solopii"]
+
+// destructuring assignment
+let [firstName, surname] = arr;
+
+alert(firstName); // Mykola
+alert(surname);  // Solopii
+// It’s called “destructuring assignment,” because it “destructurizes” by copying items into variables. But the array itself is not modified.
+// It’s just a shorter way to write
+// sets firstName = arr[0]
+// and surname = arr[1]
+
+// There’s a well-known trick for swapping values of two variables using a destructuring assignment:
+let cat = "cat";
+let dog = "dog";
+
+// Let's swap the values:
+[cat, dog] = [dog, cat];
