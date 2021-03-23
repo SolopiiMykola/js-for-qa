@@ -1,4 +1,4 @@
-// Rewrite function with Class
+// Ex.1 Rewrite function with Class syntax
 function createCar(brand, model, speed) {
 	let car = {
 		// properties
@@ -21,20 +21,19 @@ function createCar(brand, model, speed) {
 	return car;
 }
 
-// Now use create a Car object using the class
-
+// Create a Car object using the class syntax
 class Car {
     // Your code
 }
 
-let car = new Car("Renault", "Scenic", 60);
+const car = new Car("Renault", "Scenic", 60); // should dispay new object
 
 console.log(car); // Should return new object
 console.log(car.status()); // Renault Scenic running at 60 km/h 
 
-// Then create additinal class CarColor, exteds from the Car class and add new method carColor() in this class
-// which return brand model and car color
-car = new CarColor("Renault", "Scenic", "Red");
+// Ex.2 Create additinal class CarColor, exteds it from the Car class and add new method carColor() into this class
+// Then return brand model and car color
+const carColor = new CarColor("Renault", "Scenic", "Red");
 
-console.log(car);
-console.log(car.carColor()); // Renault Scenic has Red color
+console.log(carColor); // should display new object
+console.log(carColor.carColor()); // Should display string "Renault Scenic has Red color"
