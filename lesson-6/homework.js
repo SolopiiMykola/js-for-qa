@@ -1,5 +1,5 @@
-// Rewrite current function using async/await
-
+// Rewrite current function using async/await syntax
+ 
 function loadJson(url) {
     return fetch(url)
       .then(response => {
