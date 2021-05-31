@@ -1,6 +1,20 @@
-// create array which contain array of object, function with some console.log, boolean, string, and undefined 
-// and try to get value of function by index
 
+/*
+Ex 1 Create array, called it Post which should contains any:
+- numeric value,
+- boolean value,
+- string value,
+- undefined,
+- function with some console.log,
+- array of objects
+Each value should have different array index
+
+Ex 1.1
+Based on previously created arrray:
+- Get the first and last array value
+- Get value of the function by array index and log value
+- Get value of "array of objects" by array index and log value
+*/
 
 
 // Exercise 1
